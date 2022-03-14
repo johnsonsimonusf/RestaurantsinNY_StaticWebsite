@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Restaurants in New York</title>
+  
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
+
+  
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-cente">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Restaurants</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#list">Select Restaurant</a></li>
+          <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
+          <li><a class="nav-link scrollto" href="#events">Nutrition Information</a></li>
+          <li><a class="nav-link scrollto" href="#credits">Credits</a></li>
+          
+          
+          
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+      
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1>Nutrition Information of all Restaurants in   <span>NewYork</span></h1>
+          
+
+          <div class="btns">
+            
+            <a href="#list" class="btn-book animated fadeInUp scrollto">Select Restaurant</a>
+          </div>
+        </div>
+        
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+		<div class="container aos-init aos-animate" data-aos="fade-up">
+
+			<div class="row">
+				<div class="col-lg-6 order-1 order-lg-2 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+					<div class="about-img">
+					<img src="assets/img/about.jpg" alt="">
+					</div>
+				</div>
+				<div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+				<h3>This Website is designed to display the Nutrition Information of all Iems across Famous Franchises in NewYork</h3>
+				<p class="fst-italic">ERD diagram represents the entity relationships between different classes</p>
+				<ul>
+				<li><i class="bi bi-check-circle"></i>Restaurants and Menu have one to many relationship with each other</li>
+				<li><i class="bi bi-check-circle"></i>An Item in a Menu has zero or multiple Nutrition information and Nutrition information has one to one relationship with Menu Items</li>
+				<li><i class="bi bi-check-circle"></i>Restaurants and Food category have one to many relationship with each other</li>
+				</ul>
+
+				</div>
+			</div>
+
+		</div>
+	</section><!-- End About Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="list" class="why-us">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="section-title">
+          
+          <p>Select a Restaurant</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <a href="#menu"><div class="box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+              <span>01</span>
+              <h4>7 Eleven</h4>
+              
+            </div></a>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+           <a href="#menu"> <div class="box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+              <span>02</span>
+              <h4>Dominos</h4>
+              
+            </div></a>
+          </div>
+
+          
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
+             <span>More</span>
+			 <h4> </h4>
+             <form>  
+				<select>  
+					<option value="BMW">Red Robins
+					</option>  
+					<option value="Mercedes">BJ's
+					</option>  
+					<option value="Audi">Auntie Anns
+					</option>  
+					<option value="Skoda">WAWA
+					</option>  
+				</select>  
+			 </form>  
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu section-bg">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Menu</h2>
+          <p>Select the Item</p>
+        </div>
+
+        <div class="row aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="">All</li>
+              <li data-filter=".filter-pizza" class="filter-active">Pizza</li>
+              <li data-filter=".filter-sandwiches" class="">Sandwiches</li>
+              <li data-filter=".filter-burgers" class="">Burgers</li>
+    <li data-filter=".filter-salads">Salads</li>
+     <li data-filter=".filter-appSides">Appetizers &amp; Sides</li>
+      <li data-filter=".filter-bevarages">Beverages</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row menu-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 600px;">
+
+          <div class="col-lg-6 menu-item filter-pizza" style="position: absolute; left: 0px; top: 0px;">
+            
+            <div class="menu-content">
+              <a href="#">Pepperoni Pizza</a>
+            </div>
+            
+          </div>
+
+          <div class="col-lg-6 menu-item filter-sandwiches" style="position: absolute; left: 480px; top: 0px;">
+            
+            <div class="menu-content">
+              <a href="#">Classic Chicken Sandwich</a>
+            </div>
+            
+          </div>
+
+          <div class="col-lg-6 menu-item filter-burger" style="position: absolute; left: 0px; top: 120px;">
+            
+            <div class="menu-content">
+              <a href="#">Classic Cheeseburger</a>
+            </div>
+            
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads" style="position: absolute; left: 480px; top: 120px;">
+            
+            <div class="menu-content">
+              <a href="#">Chicken Caesar Salad</a>
+            </div>
+            
+          </div>
+
+          <div class="col-lg-6 menu-item filter-appSides" style="position: absolute; left: 0px; top: 240px;">
+            
+            <div class="menu-content">
+              <a href="#">Chicken Wings</a>
+            </div>
+            
+          </div>
+
+          <div class="col-lg-6 menu-item filter-pizza" style="position: absolute; left: 480px; top: 240px;">
+            
+            <div class="menu-content">
+              <a href="#">Extreme Meat Pizza</a>
+            </div>
+            
+          </div>
+
+          <div class="col-lg-6 menu-item filter-sandwiches" style="position: absolute; left: 0px; top: 360px;">
+            
+            <div class="menu-content">
+              <a href="#">Double Bacon Cheddar Melt</a>
+            </div>
+            
+          </div>
+
+          <div class="col-lg-6 menu-item filter-burgers" style="position: absolute; left: 480px; top: 360px;">
+            
+            <div class="menu-content">
+              <a href="#">Cheeseburger Big Bite</a>
+            </div>
+            
+          </div>
+
+          <div class="col-lg-6 menu-item filter-salads" style="position: absolute; left: 0px; top: 480px;">
+            
+            <div class="menu-content">
+              <a href="#">BLT Salad</a>
+            </div>
+            
+          </div>
+   <div class="col-lg-6 menu-item filter-appSides" style="position: absolute; left: 480px; top: 480px;">
+            
+            <div class="menu-content">
+              <a href="#">7 Select Tortilla Chips</a>
+            </div>
+            
+          </div>
+        </div>
+
+        
+
+      </div>
+    </section><!-- End Menu Section -->
+
+    <section id="specials" class="specials">
+<div class="container aos-init aos-animate" data-aos="fade-up">
+
+
+
+<div class="section-title">
+	<h2>Add / Update</h2>
+	<p>Restaurant or Menu Items</p>
+</div>
+
+
+
+<div class="row aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+	<div class="col-lg-3">
+		<ul class="nav nav-tabs flex-column">
+		<li class="nav-item">
+		<a class="nav-link show active" data-bs-toggle="tab" href="#tab-1">Add Item</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" data-bs-toggle="tab" href="#tab-2">Read Item</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" data-bs-toggle="tab" href="#tab-3">Update Item</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" data-bs-toggle="tab" href="#tab-4">Delete Item</a>
+		</li>
+		<li class="nav-item">
+		<a class="nav-link" data-bs-toggle="tab" href="#tab-5">Add Restaurant</a>
+		</li>
+		</ul>
+	</div>
+<div class="col-lg-9 mt-4 mt-lg-0">
+	<div class="tab-content">
+		<div class="tab-pane show active" id="tab-1">
+			<div class="book-a-table">
+				<div class="container aos-init aos-animate" data-aos="fade-up">
+
+
+					<div class="section-title">
+						<p>Add a new Item</p>
+					</div>
+
+					<form action="forms/book-a-table.php" method="post" role="form" class="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+					<div class="row">
+					<div class="col-lg-4 col-md-6 form-group">
+					<input type="text" name="name" class="form-control" id="name" placeholder="Restaurant Name" data-rule="minlen:4" data-msg="Please enter a valid restaurant name">
+					<div class="validate"></div>
+				</div>
+					<div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+						<input type="email" class="form-control" name="email" id="email" placeholder="Item Name" data-rule="email" data-msg="Please enter a valid email">
+						<div class="validate"></div>
+					</div>
+					<div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+						<input type="text" class="form-control" name="phone" id="phone" placeholder="calories count" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+						<div class="validate"></div>
+					</div>
+					<div class="col-lg-4 col-md-6 form-group mt-3">
+						<input type="text" name="date" class="form-control" id="date" placeholder="Protein in grams" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+						<div class="validate"></div>
+					</div>
+					<div class="col-lg-4 col-md-6 form-group mt-3">
+					<input type="text" class="form-control" name="time" id="time" placeholder="Total Fat in grams" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+						<div class="validate"></div>
+					</div>
+					<div class="col-lg-4 col-md-6 form-group mt-3">
+						<input type="number" class="form-control" name="people" id="people" placeholder="Sugar Content" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+						<div class="validate"></div>
+					</div>
+				</div>
+				<div class="form-group mt-3">
+				<textarea class="form-control" name="message" rows="5" placeholder="Item Description"></textarea>
+					<div class="validate"></div>
+				</div>
+
+				<div class="text-center"><button type="submit">Create</button></div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="tab-pane" id="tab-2">
+		<div class="book-a-table">
+			<div class="container aos-init aos-animate" data-aos="fade-up">
+				<div class="section-title">
+
+					<p>View an Item</p>
+				</div>
+
+				<form action="forms/book-a-table.php" method="post" role="form" class="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+				<div class="row">
+					<div class="col-lg-4 col-md-6 form-group">
+						<input type="text" name="name" class="form-control" id="name" placeholder="Restaurant Name" data-rule="minlen:4" data-msg="Please enter a valid restaurant name">
+						<div class="validate"></div>
+					</div>
+					<div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+					<input type="email" class="form-control" name="email" id="email" placeholder="Item Name" data-rule="email" data-msg="Please enter a valid email">
+						<div class="validate"></div>
+					</div>
+				</div>
+				<div class="text-center"><button type="submit">View</button></div>
+				</form>
+				
+			</div>
+		</div>
+	</div>
+	<div class="tab-pane" id="tab-3">
+		<div class="book-a-table">
+			<div class="container aos-init aos-animate" data-aos="fade-up">
+				<div class="section-title">
+					<p>Update an Item</p>
+				</div>
+				<form action="forms/book-a-table.php" method="post" role="form" class="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+					<div class="row">
+						<div class="col-lg-4 col-md-6 form-group">
+							<input type="text" name="name" class="form-control" id="name" placeholder="Restaurant Name" data-rule="minlen:4" data-msg="Please enter a valid restaurant name">
+							<div class="validate"></div>
+						</div>
+						<div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+							<input type="email" class="form-control" name="email" id="email" placeholder="Item Name" data-rule="email" data-msg="Please enter a valid email">
+							<div class="validate"></div>
+						</div>
+						<div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+							<input type="text" class="form-control" name="phone" id="phone" placeholder="calories count" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+							<div class="validate"></div>
+						</div>
+						<div class="col-lg-4 col-md-6 form-group mt-3">
+							<input type="text" name="date" class="form-control" id="date" placeholder="Protein in grams" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+							<div class="validate"></div>
+						</div>
+						<div class="col-lg-4 col-md-6 form-group mt-3">
+							<input type="text" class="form-control" name="time" id="time" placeholder="Total Fat in grams" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+							<div class="validate"></div>
+						</div>
+						<div class="col-lg-4 col-md-6 form-group mt-3">
+							<input type="number" class="form-control" name="people" id="people" placeholder="Sugar Content" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+							<div class="validate"></div>
+						</div>
+					</div>
+					<div class="form-group mt-3">
+						<textarea class="form-control" name="message" rows="5" placeholder="Item Description"></textarea>
+						<div class="validate"></div>
+					</div>
+
+					<div class="text-center"><button type="submit">Update</button></div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="tab-pane" id="tab-4">
+		<div class="book-a-table">
+			<div class="container aos-init aos-animate" data-aos="fade-up">
+				<div class="section-title">
+					<p>Delete an Item</p>
+				</div>
+				<form action="forms/book-a-table.php" method="post" role="form" class="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+					<div class="row">
+						<div class="col-lg-4 col-md-6 form-group">
+							<input type="text" name="name" class="form-control" id="name" placeholder="Restaurant Name" data-rule="minlen:4" data-msg="Please enter a valid restaurant name">
+							<div class="validate"></div>
+						</div>
+						<div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+							<input type="email" class="form-control" name="email" id="email" placeholder="Item Name" data-rule="email" data-msg="Please enter a valid email">
+							<div class="validate"></div>
+						</div>
+<div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+<input type="text" class="form-control" name="phone" id="phone" placeholder="calories count" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+<div class="validate"></div>
+</div>
+<div class="col-lg-4 col-md-6 form-group mt-3">
+<input type="text" name="date" class="form-control" id="date" placeholder="Protein in grams" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+<div class="validate"></div>
+</div>
+<div class="col-lg-4 col-md-6 form-group mt-3">
+<input type="text" class="form-control" name="time" id="time" placeholder="Total Fat in grams" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+<div class="validate"></div>
+</div>
+<div class="col-lg-4 col-md-6 form-group mt-3">
+<input type="number" class="form-control" name="people" id="people" placeholder="Sugar Content" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+<div class="validate"></div>
+</div>
+</div>
+<div class="form-group mt-3">
+<textarea class="form-control" name="message" rows="5" placeholder="Item Description"></textarea>
+<div class="validate"></div>
+</div>
+
+<div class="text-center"><button type="submit">Delete</button></div>
+</form>
+
+
+
+</div>
+</div>
+</div>
+<div class="tab-pane" id="tab-5">
+<div class="book-a-table">
+<div class="container aos-init aos-animate" data-aos="fade-up">
+
+
+
+<div class="section-title">
+
+<p>Add a new Restaurant</p>
+</div>
+
+
+
+<form action="forms/book-a-table.php" method="post" role="form" class="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+<div class="row">
+<div class="col-lg-4 col-md-6 form-group">
+<input type="text" name="name" class="form-control" id="name" placeholder="Restaurant Name" data-rule="minlen:4" data-msg="Please enter a valid restaurant name">
+<div class="validate"></div>
+</div>
+<div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+<input type="email" class="form-control" name="email" id="email" placeholder="Item Name (add atleast 1)" data-rule="email" data-msg="Please enter a valid email">
+<div class="validate"></div>
+</div>
+<div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+<input type="text" class="form-control" name="phone" id="phone" placeholder="calories count" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+<div class="validate"></div>
+</div>
+<div class="col-lg-4 col-md-6 form-group mt-3">
+<input type="text" name="date" class="form-control" id="date" placeholder="Protein in grams" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+<div class="validate"></div>
+</div>
+<div class="col-lg-4 col-md-6 form-group mt-3">
+<input type="text" class="form-control" name="time" id="time" placeholder="Total Fat in grams" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+<div class="validate"></div>
+</div>
+<div class="col-lg-4 col-md-6 form-group mt-3">
+<input type="number" class="form-control" name="people" id="people" placeholder="Sugar Content" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+<div class="validate"></div>
+</div>
+</div>
+<div class="form-group mt-3">
+<textarea class="form-control" name="message" rows="5" placeholder="Item Description"></textarea>
+<div class="validate"></div>
+</div>
+
+<div class="text-center"><button type="submit">Create</button></div>
+</form>
+
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</section>
+<!-- End Specials Section -->
+
+    <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>STATISTICS</h2>
+          <p>Contribution in New York</p>
+        </div>
+
+        <div class="events-slider swiper swiper-initialized swiper-horizontal swiper-pointer-events aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper" id="swiper-wrapper-db792b283e55f05a" aria-live="off" style="transform: translate3d(-3744px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" role="group" aria-label="1 / 3">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/calorie.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Calories</h3>
+                  
+                  <p class="fst-italic">
+                    Looking for healthy food?
+					Are you on a diet?
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i>Here are the Average Calories of all the dishes server in each restaurant.</li>
+                    <li><i class="bi bi-check-circled"></i>Lets make an informed decision!!</li>
+                  </ul>
+                  
+                </div>
+              </div>
+            </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="1" role="group" aria-label="2 / 3">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/protein.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Proteins</h3>
+                  <p class="fst-italic">
+                    Working out?
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i>Have a look at the average proteint content in all the dishes served at each restaurant.</li>
+                    <li><i class="bi bi-check-circled"></i>Let the gains begin!!</li>
+                  </ul>
+                </div>
+              </div>
+            </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" role="group" aria-label="3 / 3">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/keto.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Keto</h3>
+                  <p class="fst-italic">
+                    On a Keto diet?
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i>Searching for Proteins and Fat?</li>
+                    <li><i class="bi bi-check-circled"></i>Use the visualization to compare the restaurants that have the food you need</li>
+                  </ul>
+                  <p>
+                   Here you go!!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0" role="group" aria-label="1 / 3">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/calorie.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Calories</h3>
+                  <p class="fst-italic">
+                    Looking for healthy food?
+					Are you on a diet?
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i>Here are the Average Calories of all the dishes server in each restaurant.</li>
+                    <li><i class="bi bi-check-circled"></i>Lets make an informed decision!!</li>
+                  </ul>
+                  
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="1" role="group" aria-label="2 / 3">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/protein.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Proteins</h3>
+                  <p class="fst-italic">
+                    Working out?
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i>Have a look at the average protein content in all the dishes served at each restaurant.</li>
+                    <li><i class="bi bi-check-circled"></i>Let the gains begin!!</li>
+                  </ul>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="2" role="group" aria-label="3 / 3">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/keto.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Keto</h3>
+                  <p class="fst-italic">
+                    On a Keto diet?
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i>Searching for Protein and Fat?</li>
+                    <li><i class="bi bi-check-circled"></i>Use the visualization to compare the restaurants that have the food you need</li>
+                  </ul>
+                  <p>
+                   Here you go!!
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="0" role="group" aria-label="1 / 3">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/calorie.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Calories</h3>
+                  <p class="fst-italic">
+                    Looking for healthy food?
+					Are you on a diet?
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i>Here are the Average Calories of all the dishes server in each restaurant.</li>
+                    <li><i class="bi bi-check-circled"></i>Lets make an informed decision!!</li>
+                  </ul>
+                </div>
+              </div>
+            </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="1" role="group" aria-label="2 / 3">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/protein.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Proteins</h3>
+                  <p class="fst-italic">
+                    Working out?
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i>Have a look at the average protein content in all the dishes served at each restaurant.</li>
+                    <li><i class="bi bi-check-circled"></i>Let the gains begin!!</li>
+                  </ul>
+                </div>
+              </div>
+            </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="2" role="group" aria-label="3 / 3">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/keto.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Keto</h3>
+                  <p class="fst-italic">
+                    On a Keto diet?
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circled"></i>Searching for Protein and Fat?</li>
+                    <li><i class="bi bi-check-circled"></i>Use the visualization to compare the restaurants that have the food you need</li>
+                  </ul>
+                  <p>
+                   Here you go!!
+                  </p>
+                </div>
+              </div>
+            </div></div>
+          <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span></div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+      </div>
+    </section><!-- End Events Section -->
+
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+
+      <div class="container aos-init" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Gallery</h2>
+          <p>Some photos from Our Restaurant</p>
+        </div>
+      </div>
+
+      <div class="container-fluid aos-init" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+   <!-- ======= Credits Section ======= -->
+<section id="credits" class="credits">
+<div class="container aos-init" data-aos="fade-up">
+
+
+
+<div class="section-title">
+<h2>Credits</h2>
+<p>Team Members</p>
+</div>
+
+
+
+<div class="row">
+
+
+
+<div class="col-lg-4 col-md-6">
+<div class="member aos-init" data-aos="zoom-in" data-aos-delay="100">
+<img src="assets/img/team/john.jpg" class="img-fluid" alt="">
+<div class="member-info">
+<div class="member-info-content">
+<h4>Simon Johnson</h4>
+<span>Worked as an application developer at Oracle for over 3 years<//span>
+</div>
+<div class="social">
+<a href="https://www.linkedin.com/in/simon-johnson-07973a12a/"><i class="bi bi-linkedin"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="col-lg-4 col-md-6">
+<div class="member aos-init" data-aos="zoom-in" data-aos-delay="200">
+<img src="assets/img/team/parvinder.jpg" class="img-fluid" alt="">
+<div class="member-info">
+<div class="member-info-content">
+<h4>Parvinder Singh</h4>
+<span>Pursuing Masters in Business Analytics and Information Systems at University of South Florida. Worked at Deloitte as an Analyst</span>
+</div>
+<div class="social">
+<a href="https://www.linkedin.com/in/parvinder-singh-1bbb00193/"><i class="bi bi-linkedin"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="col-lg-4 col-md-6">
+<div class="member aos-init" data-aos="zoom-in" data-aos-delay="300">
+<img src="assets/img/team/sandeep.jpg" class="img-fluid" alt="">
+<div class="member-info">
+<div class="member-info-content">
+<h4>Sandeep Reddy</h4>
+<span>Graduate student in Business analytics and information systems. Worked as a Programmer analyst in cognizant technology solutions for 2 years. Experience in website development || java||Bootstrap||python||C-Sharp||MySQL</span>
+</div>
+<div class="social">
+<a href="https://www.linkedin.com/in/l-v-sandeep-reddy-gudimetla"><i class="bi bi-linkedin"></i></a>
+</div>
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+</div>
+</section><!-- End credits Section -->
+</main><!-- End #main -->
+
+
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+<div class="footer-top">
+<div class="container">
+<div class="copyright">
+© Copyright <strong><span>University of South Florida</span></strong>. All Rights Reserved
+</div>
+<div class="credits">
+ Click here for <a href="https://github.com/johnsonsimonusf/Assignment_1_Spring_22">GitHub URL</a>
+</div>
+<div class="credits">
+Click here for <a href="https://data.cityofnewyork.us/Health/DOHMH-MenuStat/qgc5-ecnb">API URL</a>
+</div>
+<div class="credits">
+Designed by <a href="">USF Students</a>
+</div>
+</div>
+</footer><!-- End Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+
+
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+
+</body>
+
+
+
+</html>
